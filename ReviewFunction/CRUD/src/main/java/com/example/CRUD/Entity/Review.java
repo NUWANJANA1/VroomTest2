@@ -13,9 +13,9 @@ import lombok.*;
 @NoArgsConstructor
 public class Review {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY) // Auto-incremented primary key
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long reviewId;
-    private String name; // User name
-    private int rating;  // Rating (e.g., 1-5)
-    private String review; // Review text
+    private String name;
+    private int rating;
+    private String review;
 }
